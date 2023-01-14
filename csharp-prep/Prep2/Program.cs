@@ -3,8 +3,9 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {
+    {      //Asking the user their percentage
           Console.Write("What is your grade percentage? ");
+          //Here the answer is changed into a percentage and determined what will happen
         string answer = Console.ReadLine();
         int percent = int.Parse(answer);
 
