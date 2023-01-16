@@ -1,9 +1,15 @@
 using System;
 
-class Program
-{
-    static void Main(string[] args)
+public class _job
+{    
+    public string _jobTitle;
+    public string _company;
+    public int _startYear;
+    public int _endYear;
+
+    public void Display()
     {
-        Console.WriteLine("Hello Learning02 World!");
+        Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}");
     }
+        
 }
