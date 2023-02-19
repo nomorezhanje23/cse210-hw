@@ -4,13 +4,13 @@ class Order
 {
     public List<Product> _product = new List<Product>();
 
-    public string  _customer;
+    private string  _customer;
 
     public float _totalCost;
 
     public int _shippingCost;
 
-    public Order(string customer)
+    private Order(string customer)
     {
         _customer = customer;
 
